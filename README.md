@@ -19,14 +19,18 @@ This project is a powerful backend system built with **Node.js** and **Express.j
 project-root/
 │
 ├── controllers/ # Request handlers (business logic)
-├── models/ # Mongoose models / schemas
-├── routes/ # All API route definitions
-├── middlewares/ # Auth, role check, error handling, etc.
-├── uploads/ # Uploaded files
-├── utils/ # Helper functions
-├── app.js # Main app setup
 
-yaml
+├── models/ # Mongoose models / schemas
+
+├── routes/ # All API route definitions
+
+├── middlewares/ # Auth, role check, error handling, etc.
+
+├── uploads/ # Uploaded files
+
+├── utils/ # Helper functions
+
+├── app.js # Main app setup
 
 ---
 
