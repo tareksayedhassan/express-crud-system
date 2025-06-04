@@ -2,15 +2,17 @@ const mongoose = require("mongoose");
 
 const CrudSchema = new mongoose.Schema(
   {
-    Title: {
+    title: {
       type: String,
       required: true,
     },
-    Description: {
+    description: {
+      // <-- lowercase
       type: String,
       required: true,
     },
-    Categpryes: {
+    categories: {
+      // <-- spelling corrected
       type: String,
       required: true,
     },

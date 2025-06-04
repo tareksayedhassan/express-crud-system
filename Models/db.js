@@ -1,9 +1,10 @@
+require("dotenv").config();
 const mongoose = require("mongoose");
 
 main().catch((err) => console.log(err));
 
 async function main() {
-  const url = "mongodb://localhost:27017/Crud-oprations";
+  const url = process.env.URL;
 
   await mongoose.connect(url);
   try {
